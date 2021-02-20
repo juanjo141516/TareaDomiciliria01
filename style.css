@@ -175,6 +175,9 @@ fieldset{
 #input_nombre{
     width: 255px;
 }
+#input_categorias{
+    width: 178px;
+}
 #color{
     width: 20px;
 }
