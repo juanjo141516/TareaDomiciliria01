@@ -31,7 +31,7 @@ main{
     margin-left: 10px;
     display: grid;
     align-items: center;
-    padding-bottom: 5px;
+    padding-bottom: 4px;
 }
 aside{
     grid-column: span 2;
@@ -43,7 +43,7 @@ aside{
     display: grid;
     justify-items: center;
     padding-top: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 36px;
 }
 
 footer{
@@ -157,7 +157,7 @@ footer{
 
 
 fieldset{
-    margin-bottom: 20px;
+    padding-bottom: 0;
 }
 .formulario {
     margin: 18px 0;
