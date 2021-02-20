@@ -176,7 +176,24 @@ footer{
     width: 20px;
 }
 #fecha{
+    margin: 18px 0;
+    height: 55px;
+}
+#label_fecha{
+    margin: 19px 0 ;
+    float: left;
+    width: 170px;
+}
+
+#tamaño_input_fecha{
     width: 123px;
+    float: left;
+    margin: 15.5px 0;
+}
+#logo_fecha{
+    height: 27px; 
+    width: 27px;
+    margin: 14px 0 14px 4px;
 }
 .radio_de_estados{
     width: 12px;
