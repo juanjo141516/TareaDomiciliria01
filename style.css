@@ -163,6 +163,7 @@ footer{
 .formulario label {
     width: 170px;
     float: left;
+    margin-top: 2px;
 }  
 
 .formulario input{
