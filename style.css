@@ -196,14 +196,18 @@ footer{
     width: 27px;
     margin: 14px 0 14px 4px;
 }
-.radio_de_estados{
-    width: 12px;
-    margin-left: 0px;
-    margin-right: 0px;
+.formulario .radio_de_estados{
+    width: 15px;
+    margin-top: 5px  ;
+    margin-bottom: 0px;
+    margin-left: 0;
+    margin-right: 0 ;
 }
-.estados{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 13px;
+.formulario .estados{
+    font-size: 15px;
+    float: initial;
+    margin: 0 0 4px 0;
+
 }
 #checkbox_impuesto{
     width: 15px;
