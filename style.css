@@ -191,15 +191,28 @@ footer{
     width: 15px;
     margin-left:0px ;
 }
-#photo{
-    width: 325px;
+#foto{
+    margin: 18px 0;
+    height: 55px;
+}
+#label_foto{
+    margin: 19px 0 ;
+    float: left;
+    width: 170px;
+}
+#tamaño_input_foto{
+    width:133px;
+    margin: 17px 0;
+    float: left;
+}
+
+#logo_de_galeria{
+    height: 30px; 
+    width: 30px;
+    margin: 12px 0px;
 }
 textarea{
     resize: none;
-}
-#tamaño_descripcion{
-    width: 320px;
-    height: 80px;
 }
 #descripcion{
     margin: 18px 0;
@@ -208,6 +221,10 @@ textarea{
     padding-top: 33px;
     float: left;
     width: 170px;
+}
+#tamaño_descripcion{
+    width: 320px;
+    height: 80px;
 }
 #botones{
     padding-left: 180px;
