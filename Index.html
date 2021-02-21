@@ -51,24 +51,24 @@
             <legend>Agregar productos</legend>
             <form action="venta" method="POST">
                 <div class="formulario">
-                    <label for="codigo">Código*</label>
+                    <label for="codigo">Código* :</label>
                     <input type="tel" id="codigo"  maxlength="6" pattern="[0-9]{6}" title="Debe ingresar solo 6 números" required>
                     <button id="validacion">Validar</button>    
                 </div>
             
                 <div class="formulario">
-                    <label for="nombre">Nombre*</label>
-                    <input type="text" type="tel" id="input_nombre" maxlength="100" placeholder="Solo letras y números" pattern="[a-zA-Z0-9\s\´]{3,100}" title="Solo letras" required>
+                    <label for="nombre">Nombre* :</label>
+                    <input type="text" type="tel" id="input_nombre" minlength="2" maxlength="100" placeholder="Solo letras y números" pattern="[a-zA-Z0-9\s\´\-]{2,100}" title="Solo letras" required>
                 </div>
 
                 <div class="formulario">
-                    <label for="abreviatura">Abreviatura</label>
-                    <input type="text" id="abreviatura" maxlength="10" placeholder="Solo letras" pattern="[a-zA-Z\.]{2,10}" title="Solo letras">
+                    <label for="abreviatura">Abreviatura :</label>
+                    <input type="text" id="abreviatura" minlength="2" maxlength="10" placeholder="Solo letras" pattern="[a-zA-Z\s\.]{2,10}" title="Solo letras">
                 </div>
 
                 <div class="formulario">
-                    <label for="list_categorias">Categorias*</label>
-                    <input list="list_categorias" id="categorias">
+                    <label for="list_categorias">Categorias* :</label>
+                    <input list="list_categorias" id="input_categorias" required>
                     <datalist id="list_categorias"> 
                         <option value="Panes especiales"></option>
                         <option value="Lácteos"></option>
@@ -78,28 +78,28 @@
                 </div>
 
                 <div class="formulario">
-                    <label for="ruc">RUC Proveedor*</label>
+                    <label for="ruc">RUC Proveedor* :</label>
                     <input type="tel" id="RUC" maxlength="11"pattern="[0-9]{11}" placeholder="Solo números" title="Solo números" required>
                 </div>
 
                 <div class="formulario">
-                    <label for="precio">Precio*</label>
-                    <input type="tel" maxlength="4" pattern="[0-9]{4}" id="precio">
+                    <label for="precio">Precio* :</label>
+                    <input type="number" min="0" step="0.01" max="10000000" pattern="[0-9]" id="precio" required>
                 </div>
 
                 <div class="formulario">
-                    <label for="color">Color</label>
+                    <label for="color">Color de etiqueta :</label>
                     <input type="color" id="color">
                 </div>
 
                 <div id="fecha">
-                    <label id="label_fecha" for="fecha">Fecha*</label>
-                    <input type="date" id="tamaño_input_fecha">
+                    <label id="label_fecha" for="fecha">Fecha* :</label>
+                    <input type="date" id="tamaño_input_fecha" required>
                     <img src="https://cdn.icon-icons.com/icons2/936/PNG/128/calendar-with-spring-binder-and-date-blocks_icon-icons.com_73645.png" id="logo_fecha" alt="logo de la fecha">
                 </div>
 
                 <div class="formulario">
-                    <label for="estado">Estado*</label>
+                    <label for="estado">Estado* :</label>
                     <input type="radio" name="Estado" class="radio_de_estados">
                     <label class="estados" for="activo">Activo</label>
                     <input type="radio" name="Estado" class="radio_de_estados">
@@ -109,12 +109,10 @@
                 </div>
 
                 <div class="formulario">
-                    <label for="afecto_impuesto">Afecto a impuesto*</label>
-                    <div>
-                        <input type="checkbox" id="checkbox_impuesto">
-                    </div>
-        
+                    <label for="afecto_impuesto">Afecto a impuesto* :</label>    
+                    <input type="checkbox" id="checkbox_impuesto">
                 </div>
+
                 <div id="foto"> 
                     <label id="label_foto" for="Seleccione_foto">Foto*</label>
                     <input id="tamaño_input_foto" type="file" name="foto" size="5mb" accept="image/png, image/jpg">
@@ -122,7 +120,7 @@
                 </div>
 
                 <div id="descripcion">
-                    <label id="label_descripcion" for="descripcion">Descripcion*</label>
+                    <label id="label_descripcion" for="descripcion">Descripcion* :</label>
                     <textarea id="tamaño_descripcion"></textarea>
                 </div>
 
