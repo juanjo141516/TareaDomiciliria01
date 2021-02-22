@@ -12,7 +12,7 @@ header{
     background-color:blue;
     grid-column: span 3;
     display: grid;
-    grid-auto-columns: 87% 13%;   
+    grid-auto-columns: 88% 12%;   
 }
 
 nav{
@@ -20,7 +20,7 @@ nav{
     color:white;
     grid-column: span 3;
     display: grid;
-    grid-auto-columns: 58% 36% 6%;  
+    grid-auto-columns: 64% 32% 4%;  
 }
 
 main{
@@ -64,7 +64,7 @@ footer{
     color: white;
     font-size: 30px;
     text-align: center;
-    padding-left: 85px;
+    padding-left: 280px;
 }
 
 #bloque_del_usuario{
@@ -83,6 +83,7 @@ footer{
     width: 52px;
     clip-path:circle(50% at 50% 50%);
     opacity: 60%;
+    margin-left: 15px;
 }
 
 #texto_usuario{
@@ -108,7 +109,7 @@ footer{
   
 }
 #barra_buscadora{
-    width: 233px;
+    width: 295px;
 }
 
 #bloque_del_buscador{
@@ -169,7 +170,7 @@ fieldset{
 }  
 
 .formulario input{
-    width: 95px;
+    width: 200px;
 }
 
 #input_nombre{
