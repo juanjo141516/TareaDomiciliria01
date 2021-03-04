@@ -94,18 +94,13 @@ footer{
 #barra_buscadora{
     width: 295px;
 }
-#bloque_del_buscador{
-    text-align: center;
+#boton_del_buscador{
     grid-column: 3/4;
-    margin: 0;
 }
 #logo_buscador{
     height: 40px;
     width: 40px;
     padding-top:5px;   
-}
-#texto_del_logo_buscador{
-    text-align: center;
 }
 #menu{
     text-align: center;
