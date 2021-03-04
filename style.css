@@ -49,13 +49,9 @@ aside{
 footer{
     grid-column:span 3;
     background-color: cornflowerblue;
-    color: black;
     display: grid;
     grid-auto-columns: 33% 33% 33%;
-    text-decoration: none;
 }
-
-
 #titulo{
     grid-column: 1/2; 
     color: white;
@@ -231,21 +227,17 @@ textarea{
 #limpiar{
     margin-left: 30px;
 }
-#que_hacemos{
-    grid-column: 1/2;
-    margin: auto;
+footer a{
     color: black;
     text-decoration: none;
+    margin: auto;
+}
+#que_hacemos{
+    grid-column: 1/2;
 }
 #enlaces_principales{
     grid-column: 2/3;
-    margin: auto;
-    color: black;
-    text-decoration: none;
 }
 #contactanos{
     grid-column: 3/4;
-    margin: auto;
-    color: black;
-    text-decoration: none;
 }
