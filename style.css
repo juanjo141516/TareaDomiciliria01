@@ -130,7 +130,7 @@ fieldset{
     margin: 18px 0;
 }
 .formulario label {
-    width: 170px;
+    width: 185px;
     float: left;
     margin-top: 2px;
 }  
@@ -153,7 +153,7 @@ fieldset{
 #label_fecha{
     margin: 19px 0 ;
     float: left;
-    width: 170px;
+    width: 185px;
 }
 #tamaño_input_fecha{
     width: 123px;
@@ -188,7 +188,7 @@ fieldset{
 #label_foto{
     margin: 19px 0 ;
     float: left;
-    width: 170px;
+    width: 185px;
 }
 #tamaño_input_foto{
     width:133px;
@@ -209,10 +209,10 @@ textarea{
 #label_descripcion{
     padding-top: 33px;
     float: left;
-    width: 170px;
+    width: 185px;
 }
 #tamaño_descripcion{
-    width: 320px;
+    width: 305px;
     height: 80px;
 }
 #botones{
